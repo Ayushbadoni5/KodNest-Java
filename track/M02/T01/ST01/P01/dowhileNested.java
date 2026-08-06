@@ -1,4 +1,3 @@
-package ST01;
 
 public class dowhileNested {
     public static void main(String[] args) {
