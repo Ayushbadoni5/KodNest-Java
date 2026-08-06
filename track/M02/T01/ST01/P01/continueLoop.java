@@ -4,7 +4,8 @@ public class continueLoop {
             if (i == 6) {
                 continue;
             }
-            System.out.println(i);
+            System.out.println();
         }
     }
 }
+₹
