@@ -6,10 +6,17 @@ public class Student {
     int age;
     double height;
 
-    void input(String name, int age, double height) {
+    Student(String name, int age, double height) {
         this.name = name;
         this.age = age;
         this.height = height;
+    }
+
+    Student(String name) {
+        this.name = name;
+    }
+
+    Student() {
     }
 
     void display() {
