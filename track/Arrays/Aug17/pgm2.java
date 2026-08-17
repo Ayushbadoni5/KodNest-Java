@@ -2,7 +2,8 @@ package track.Arrays.Aug17;
 
 import java.util.Scanner;
 
-public class pgm1 {
+public class pgm2 {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int a[] = new int[5];
@@ -11,9 +12,12 @@ public class pgm1 {
             a[i] = scanner.nextInt();
         }
 
-        for (int i = 0; i < a.length; i++) {
-            System.out.println("original" + a[i]);
+        System.out.print("original: ");
+        for (int i = a.length - 1; i >= 0; i--) {
+            System.out.print(a[i] + " ");
         }
+
+        System.out.println();
 
         scanner.close();
 
