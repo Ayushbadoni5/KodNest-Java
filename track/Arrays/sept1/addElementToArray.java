@@ -8,9 +8,9 @@ public class addElementToArray {
         for (int i = 0; i < arr.length; i++) {
             arr2[i] = arr[i];
         }
-        arr2[arr.length] = 90;
+        arr2[arr.length + 1] = 90;
 
-        for (int i = 0; i < arr2.length; i++) {
+        for (int i = 0; i < arr.length; i++) {
             System.out.println(arr2[i] + " ");
         }
 
